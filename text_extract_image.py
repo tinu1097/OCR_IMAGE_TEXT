@@ -31,8 +31,8 @@ def blocker(filename):
     global test
     global dij
     l = []
-    x1 = 10
-    y1 = 6
+    x1 = 14
+    y1 = 7
     imgo = cv2.imread(filename)
     gray = cv2.cvtColor(imgo, cv2.COLOR_BGR2GRAY)
     linek = np.zeros((11, 11), dtype=np.uint8)
